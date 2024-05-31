@@ -36,6 +36,14 @@ th {
     border: 3px solid;
 }
 
+#menubar th {
+    border: 3px solid;
+}
+
+#menubar td {
+    border: 3px solid;
+}
+
 .column-6 {
     float: left;
     width: 50%;
