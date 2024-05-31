@@ -1,3 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding: 64px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 a {
     font-size: 18px;
     color: blue;
@@ -10,24 +29,27 @@ th {
 }
 
 #menubar {
-    width: 95%;
-    margin: 10px;
+    width: 100%;
+    padding: 5px;
     border-collapse: collapse;
     border-color: black;
     border: 3px solid;
 }
 
 .column-6 {
+    float: left;
     width: 50%;
     padding: 20px;
 }
 
 .column-3 {
+    float: left;
     width: 25%;
     padding: 20px;
 }
 
 .column-9 {
+    float: left;
     width: 75%;
     padding: 20px;
 }
