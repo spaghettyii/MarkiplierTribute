@@ -4,12 +4,14 @@ a {
     padding: 5px;
 }
 
-td {
+th {
     background-color: green;
+    text-align: center;
 }
 
 #menubar {
     width: 90%;
     margin: 10%;
     border-collapse: collapse;
+    border-color: black;
 }
