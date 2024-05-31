@@ -53,3 +53,13 @@ th {
     width: 75%;
     padding: 20px;
 }
+
+.feature_image {
+    max-height: 480px;
+    height: 480px;
+}
+
+.feature_image img{
+    height: 100%;
+    width: 100%;
+}
