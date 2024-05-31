@@ -15,5 +15,22 @@ th {
     border-collapse: collapse;
     border-color: black;
     border: 3px solid;
-    
+}
+
+.column-6 {
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+.column-3 {
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+
+.column-9 {
+    float: left;
+    width: 75%;
+    padding: 20px;
 }
