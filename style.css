@@ -15,6 +15,7 @@ body {
     content: "";
     display: table;
     clear: both;
+    width: 100%;
 }
 
 a {
@@ -70,4 +71,5 @@ th {
 .feature_image img{
     height: 100%;
     width: 100%;
+    display: block;
 }
