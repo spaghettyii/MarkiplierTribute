@@ -7,3 +7,9 @@ a {
 td {
     background-color: green;
 }
+
+#menubar {
+    width: 90%;
+    margin: 10%;
+    border-collapse: collapse;
+}
